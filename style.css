@@ -6,13 +6,13 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-  }
-  
-  .tabs {
+}
+
+.tabs {
     margin-bottom: 20px;
-  }
-  
-  .tabs button {
+}
+
+.tabs button {
     padding: 10px 20px;
     margin: 5px;
     border: none;
@@ -21,25 +21,25 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.2s;
-  }
-  
-  .tabs button:hover {
+}
+
+.tabs button:hover {
     background: #4338ca;
-  }
-  
-  .tab-content {
+}
+
+.tab-content {
     width: 100%;
     max-width: 350px;
-  }
-  
-  .calculator {
+}
+
+.calculator {
     background: #ffffff;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  }
-  
-  .display {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.display {
     width: 100%;
     height: 60px;
     text-align: right;
@@ -49,15 +49,15 @@ body {
     border-radius: 8px;
     margin-bottom: 15px;
     box-sizing: border-box;
-  }
-  
-  .buttons {
+}
+
+.buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-  }
-  
-  .buttons button {
+}
+
+.buttons button {
     height: 50px;
     font-size: 18px;
     border: none;
@@ -65,32 +65,32 @@ body {
     background: #e0e0e0;
     cursor: pointer;
     transition: background 0.2s;
-  }
-  
-  .buttons button:hover {
+}
+
+.buttons button:hover {
     background: #d1d5db;
-  }
-  
-  .buttons button.operator {
+}
+
+.buttons button.operator {
     background: #4f46e5;
     color: #fff;
-  }
-  
-  .buttons button.operator:hover {
+}
+
+.buttons button.operator:hover {
     background: #4338ca;
-  }
-  
-  .buttons button.equal {
+}
+
+.buttons button.equal {
     background: #10b981;
     color: #fff;
-  }
-  
-  .buttons button.equal:hover {
+}
+
+.buttons button.equal:hover {
     background: #059669;
-  }
-  
-  
-  .graph-section input {
+}
+
+
+.graph-section input {
     width: calc(100% - 80px);
     padding: 10px;
     margin-right: 5px;
@@ -98,9 +98,9 @@ body {
     border: 2px solid #ddd;
     font-size: 16px;
     box-sizing: border-box;
-  }
-  
-  .graph-section button {
+}
+
+.graph-section button {
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
@@ -108,13 +108,12 @@ body {
     color: white;
     cursor: pointer;
     transition: background 0.2s;
-  }
-  
-  .graph-section button:hover {
+}
+
+.graph-section button:hover {
     background: #059669;
-  }
-  
-  #graphCanvas {
+}
+
+#graphCanvas {
     margin-top: 15px;
-  }
-  
+}
